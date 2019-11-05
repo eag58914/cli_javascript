@@ -16,9 +16,4 @@ if (files.directoryExists('.git')) {
 
 //test inquirer for input
 
-const run = async () => {
-	const credentials = await inquirer.askGithubCredentials();
-	console.log(credentials);
-};
-
 run();
